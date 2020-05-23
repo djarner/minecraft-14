@@ -1,8 +1,9 @@
-# Henrik Djarner 17-07-2019
-
 FROM openjdk:8-jdk-stretch
 
-ENV MINMEMORY=512M
+LABEL maintainer "Henrik Djarner"
+LABEL date "17-7-2019"
+
+ENV INMEMORY=512M
 ENV MAXMEMORY=1G
 
 # Spigot or CraftBukkit version
